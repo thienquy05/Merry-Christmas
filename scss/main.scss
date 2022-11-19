@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500;700&family=Dancing+Script:wght@500;1000&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://media0.giphy.com/media/Cv7wrQjYcd6hO/giphy.webp?cid=ecf05e47n13ng4tbddigh7pn47aejnx2v1o0mgwrf27gzjcc&rid=giphy.webp&ct=g);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text {
+    display: block;
+    font-family: 'Cormorant', serif;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    background: linear-gradient(45deg,#d63031,#e58e26,#27ae60);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: move 5s ease-in-out infinite;
+}   
+* {
+    padding: 5px ;
+}
+
+@keyframes move {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+#wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background-image: url(https://media0.giphy.com/media/XIEzS532zCdzq0upj8/200w.webp?cid=ecf05e47abtkidjxh7pmzrq01c3w3xh3884l9hxj4fvrehrj&rid=200w.webp&ct=g);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.box {
+    width: 300px;
+    height: 250px;
+    margin: 80px 30px 10px 30px;
+    padding: 100px 60px;
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.5);
+    border: 2px solid #e17055;
+    border-radius: 20px 5px;
+}
+.box-link {
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    margin: 20px 60px 200px 85px;
+    border-radius: 10px;
+    animation: spin 1.5s linear infinite;
+}
+.sec-text {
+    font-family: 'Cormorant', serif;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    color: #cd6133;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(10deg);
+    }
+    75% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+} 
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec-box {
+    width: 300px;
+    height: 300px;
+  margin-bottom: 50px;
+}
+img {
+    width: 300px;
+}
+
+
+
